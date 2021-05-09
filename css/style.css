@@ -20,6 +20,8 @@ body{
 .count-down__title {
     margin-bottom: 20px;
     color: #6C63FF;
+    font-size: 40px;
+    letter-spacing: 2px;
 }
 .count-down__body {
     width: 100%;
@@ -36,3 +38,7 @@ div[class$="-container"] {
     flex-direction: column;
     align-items: center;
 }
+ .time {
+     font-weight: bold;
+     font-size: 30px;
+ }
