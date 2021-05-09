@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f7f7f7;
+    font-family: 'Roboto', sans-serif;
+}
+
+.count-down {
+    min-height: 100vh;
+    width:70%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.count-down__title {
+    margin-bottom: 20px;
+    color: #6C63FF;
+}
+.count-down__body {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.count-down__img {
+    width: 100%;
+}
+
+div[class$="-container"] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
